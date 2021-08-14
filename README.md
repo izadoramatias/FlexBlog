@@ -1,0 +1,2 @@
+# FlexBlog
+Este projeto foi desenvolvido no curso de FlexBox da Origamid, onde nos foi passado ensinamentos sobre os conceitos de flexbox e logo após foi proposto o desenvolvimento deste flexblog utilizando os conceitos passados durante o curso. Fiz algumas implementações simples utilizando a linguagem JavaScript, sendo elas a API ScrollReveal e um botão para voltar ao topo da página quando a altura da página atingisse uma certa medida.
