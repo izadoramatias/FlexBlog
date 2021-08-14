@@ -17,11 +17,14 @@
       rel="stylesheet"
     />
 
+    <!-- FONTS -->
+    <link rel="stylesheet" href="assets/style.css">
+
     <!-- STYLE -->
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <div class="superinfo-bg">
+    <div class="superinfo-bg" id="superinfo">
       <div class="superinfo">
         <p>Seg / Sex - 08:00 às 18:00</p>
         <a href="tel:+5514999999999">+55 14 99999-9999</a>
@@ -55,10 +58,10 @@
       </div>
 
       <div class="sobre-img">
-        <img src="img/sobre1.jpg" alt="Sobre 1">
+        <img src="assets/img/sobre1.jpg" alt="Sobre 1">
       </div>
       <div class="sobre-img">
-        <img src="img/sobre2.jpg" alt="Sobre 2">
+        <img src="assets/img/sobre2.jpg" alt="Sobre 2">
       </div>
     </section>
 
@@ -67,17 +70,17 @@
       <div class="produtos-container">
         <div class="produtos-item purple">
           <h2>Purple</h2>
-          <img src="img/produtos1.jpg" alt="Produtos 1">
+          <img src="assets/img/produtos1.jpg" alt="Produtos 1">
         </div>
 
         <div class="produtos-item pink">
           <h2>Pink</h2>
-          <img src="img/produtos2.jpg" alt="Produtos 2">
+          <img src="assets/img/produtos2.jpg" alt="Produtos 2">
         </div>
 
         <div class="produtos-item blue">
           <h2>Blue</h2>
-          <img src="img/produtos3.jpg" alt="Produtos 3">
+          <img src="assets/img/produtos3.jpg" alt="Produtos 3">
         </div>
       </div>
     </section>
@@ -150,10 +153,13 @@
       </div>
     </section>
 
-    <section class="newsletter">
+    <section class="newsletter"  id="newsletter">
       <div class="newsletter-info">
-        <h1>Newsletter</h1>
-        <p>assine a nossa newsletter e fique por dentro das novidades</p>
+        <div class="newsletter-text">
+          <h1>Newsletter</h1>
+          <p>assine a nossa newsletter e fique por dentro das novidades</p>
+        </div>
+        
         <form class="newsletter-form">
           <input type="text" placeholder="Seu e-mail">
           <button type="submit">Assinar</button>
@@ -164,6 +170,17 @@
     <footer class="footer">
       <p>FlexBlog© Todos os direitos reservados</p>
     </footer>
+
+    <a href="#superinfo" class="back-to-top">
+      <i class="icon-arrow-top"></i>
+    </a>
+
+
+    <!-- SCROLLREVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- SCRIPTS JS -->
+    <script src="scripts.js"></script>
 
   </body>
 </html>
